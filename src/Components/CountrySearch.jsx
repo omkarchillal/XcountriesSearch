@@ -16,7 +16,7 @@ const Card = ({ name, flag }) => (
       cursor: "pointer",
     }}>
     <img src={flag} alt={`Flag of ${name}`} style={{ width: "75px" }} />
-    <h6>{name}</h6>
+    <p>{name}</p>
   </div>
 );
 
